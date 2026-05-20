@@ -21,7 +21,7 @@ elif sesion == "Sesión 2":
   st.write("Bienvenido a la sesión 2")
 
   precio = st.number_import("Ingrese el precio del producto")
-  descuento = st.number_import("Ingrese el descuento del producto")
+  descuento = st.number_input("Ingrese el descuento del producto")
 
   precio_final_producto = precio - (precio*descuento)
 

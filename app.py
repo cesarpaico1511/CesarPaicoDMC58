@@ -9,11 +9,11 @@ sesion = st.sidebar.selectbox("Seleccione una sesión", ["Sesión 1", "Sesión 2
 
 #estructuras de control
 
-if sesión == "Sesión 1":
+if sesion == "Sesión 1":
   st.write("Bienvenido a la sesión 1")
-else sesión == "Sesión 2":
+else sesion == "Sesión 2":
   st.write("Bienvenido a la sesión 2")
-else sesión == "Sesión 3":
+else sesion == "Sesión 3":
   st.write("Bienvenido a la sesión 3")
 else 
   st.write("Bienvenido a la sesión4")

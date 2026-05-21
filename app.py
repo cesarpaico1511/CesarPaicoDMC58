@@ -11,12 +11,12 @@ sesion = st.sidebar.selectbox("Seleccione una sesión", ["Sesión 1", "Sesión 2
 
 #estructuras de control
 
+#Describe el código de la sesión 1
 if sesion == "Sesión 1":
   st.write("Bienvenido a la sesión 1")
   st.image("Python.png")
 
-
-  
+#Describe el código de la sesión 2  
 elif sesion == "Sesión 2":
   st.write("Bienvenido a la sesión 2")
 
@@ -27,9 +27,11 @@ elif sesion == "Sesión 2":
 
   st.write("EL precio final de producto es: ", precio_final_producto)
 
+#Describe el código de la sesión 3
 elif sesion == "Sesión 3":
   st.write("Bienvenido a la sesión 3")
 
+#Describe el código de la sesión 4
 else: 
   st.write("Bienvenido a la sesión 4")
 

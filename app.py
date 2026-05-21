@@ -31,6 +31,10 @@ elif sesion == "Sesión 2":
 elif sesion == "Sesión 3":
   st.write("Bienvenido a la sesión 3")
 
+  #crea variable inicio_rango
+  inicio_rango = st.slider("Seleccion un valor:", min_value = 0, max_value = 20, value = 7)
+
+
 #Describe el código de la sesión 4
 else: 
   st.write("Bienvenido a la sesión 4")

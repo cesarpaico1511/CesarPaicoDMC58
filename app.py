@@ -52,7 +52,7 @@ else:
   cuota = lf.cuota_prestamo(principal, tasa_anual, anios, pagos_anio)
   st.write(f"El valor de la cuota es {cuota}")
 
-  cuota = lf.
+
 
 
 

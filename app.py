@@ -42,8 +42,8 @@ elif sesion == "Sesión 3":
 
 #Describe el código de la sesión 4
 else: 
+  
   st.write("Bienvenido a la sesión 4")
-
   principal = st.number_input("Ingrese el monto del préstamo", Value = 1000)
   tasa_anual = st.number_input("Ingrese la tasa anual en decimal", Value = 0.1, min_value=0.0, max_value=1.0)
   anios = st.number_input("Ingrese el número de años del préstamo", Value = 1)

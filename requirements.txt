@@ -1,2 +1,3 @@
 streamlit
 numpy
+libreria_funciones

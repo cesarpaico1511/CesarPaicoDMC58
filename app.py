@@ -1,4 +1,5 @@
 import streamlit as st
+import numpy as np
 
 st.title("Mi primera aplicación en Pythom")  #Titulo
 st.sidebar.title("Parámetros")  #Barra lateral izquierda
@@ -31,9 +32,12 @@ elif sesion == "Sesión 2":
 elif sesion == "Sesión 3":
   st.write("Bienvenido a la sesión 3")
 
-  #crea variable inicio_rango
-  inicio_rango = st.slider("Seleccion un valor:", min_value = 0, max_value = 20, value = 7)
+  #crea variable fin_rango
+  fin_rango = st.slider("Seleccion un valor:", min_value = 0, max_value = 20, value = 7)
 
+  arreglo = np.arange(0, fin_rango)
+
+  st.write(arreglo)
 
 #Describe el código de la sesión 4
 else: 
